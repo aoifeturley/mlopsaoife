@@ -5,7 +5,7 @@ on:
     - cron: "0 1 * * *"
   pull_request:
     branches:
-      - main
+      - snowei-test-icm
     paths:
       - cli/endpoints/online/**
       - cli/deploy-safe-rollout-amlarc-online-endpoints.sh
